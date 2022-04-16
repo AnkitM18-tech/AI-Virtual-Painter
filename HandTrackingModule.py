@@ -42,7 +42,7 @@ class handDetector():
 
         return self.PosList
 
-    def fingerUp(self):
+    def fingersUp(self):
         fingers = []
         if self.PosList[self.tipIds[0]][1] < self.PosList[self.tipIds[0] - 1][1]:
             fingers.append(1)
